@@ -1,5 +1,5 @@
 # Day-1-(22/9/2026)
-It's approximately 2:18am in my country. I am trying to figure out what to do next, where to start, how to start. It's my first ever solo project. Today I bought the necessary hardware for the project now trying to understand every mechanism of each hardware. Finally I figured out where to start. I think at first I should explore every hardware corely I will going to use in this project. 
+It's approximately 2:18am in my country. I am trying to figure out what to do next, where to start, how to start. It's my first ever solo project. Today I bought the necessary hardware for the project now trying to understand every mechanism of each hardware. Finally I figured out where to start. I think at first I should explore thoroughly every hardware that I will going to use in this project. 
 
 ### The list of hardware I bought today :  
 (a) ESP32  
