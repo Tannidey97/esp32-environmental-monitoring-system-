@@ -1,6 +1,6 @@
 # Day-2-(26-9-2026)
 
-From the day when I bought the hardwares for the project to till now I have been trying to understand every component thoroughly to got the answer of a question which is why am I using this and how it will actually work. To be honest some AI like cluade chatgpt helped me in the case of understanding and find the sources 
+From the day when I bought the hardwares for the project to till now I have been trying to understand every component thoroughly to got the answer of a question which is why am I using this and how it will actually work. To be honest some AI like cluade chatgpt helped me in the case of understanding(explaining confusing lines in datasheets, explaining working mechanisms) find the sources 
 which can really help me in my research.
 
 After reading some datasheets of Espressif and finding answers of thousand confusions I got a little knowledge about the ESP-32 circuit board. At first when I saw it for the first time I felt like is the mystery of this board will ever be solvable by me? But I feel a little confident about the concept of this circuit board now. 
