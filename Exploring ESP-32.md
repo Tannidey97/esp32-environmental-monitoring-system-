@@ -20,7 +20,7 @@ The other components around it supports this to do it's job. Components like___
 
 ***The 8-pin chip labeled "CH340C"***
 
-This is the USB-to-UART bridge chip. It converts USB data from your computer into the serial format the ESP32 understands, and vice versa.
+This is the **USB-to-UART** bridge chip. It converts USB data from computer into the serial format the ESP32 understands, and vice versa.
 
 ***The 3-pin component labeled "1117 3.3V"***     
 
@@ -28,13 +28,13 @@ This is the **AMS1117** voltage regulator. Its job: take the incoming 5V from US
 
 ***Two push buttons(EN & Boot)***
 
-**Boot Button -**  used to put the board into "Firmware Download mode." You hold this button down, then briefly press EN, to manually force the board to accept new code being uploaded via serial.
+**Boot Button -**  used to put the board into "Firmware Download mode." hold this button down, then briefly press EN, to manually force the board to accept new code being uploaded via serial.
 
 **EN Button —** this is the reset button (EN = "Enable"). Pressing it restarts the chip.  
 
 ***I/O Connector*** 
 
-the pin headers where most of the ESP32's pins are broken out, so you can use functions like PWM, ADC (analog input), DAC (analog output), I2C, I2S, and SPI (these are all communication protocols/features for connecting sensors and peripherals).  
+the pin headers where most of the ESP32's pins are broken out, so we can use functions like PWM, ADC (analog input), DAC (analog output), I2C, I2S, and SPI (these are all communication protocols/features for connecting sensors and peripherals).  
 
 
 **The others components are resistors, capacitors, PWR to check power supply etc.**  
