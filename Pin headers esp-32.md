@@ -26,10 +26,17 @@ turn something on/off or read whether something on/off.
 ***RX0 (Receive) —*** receives data IN to the ESP-32.  
 [specifically, these two are the same wires that talk to the computer through the USB cable.]  
 
-**So basically we can say there are three types of pins in the board some uses for power supply, some are for communicate to other devices and some are for input/output.  
+**So basically we can say there are three types of pins in the board some uses for power supply, some are for communicate to other devices and some are for input/output.**  
 
+I got this information from official datasheets of Espressif. But I realized that these are different from my actual board which made me understand that my board is a clone version and similar to the devkit V1 by doit. Though there should be 38 pins on the both edge of the board, my board has 30 pins on the both side and the pin naming style is similar to the **Doit ESP32 Devkit V1**.   
 
+### Doit ESP-32 Devkit V1 
+https://github.com/Tannidey97/esp32-environmental-monitoring-system-/blob/main/ESP32-DevKit-V1-Pinout-r0.1-CIRCUITSTATE-Electronics.jpg
 
+### My original ESP-32 circuit board 
+https://github.com/Tannidey97/esp32-environmental-monitoring-system-/blob/main/IMG_20260926_231238_590.jpg
+
+Here, 
 
 
 
