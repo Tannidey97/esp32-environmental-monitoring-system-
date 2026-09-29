@@ -14,10 +14,18 @@ I got to know that **DHT22** also named as **AM2302** and inside it there are a 
 
 #### The MCU and DHT22 Communication 
 
-At first **MCU** sends a low voltage signal to the **DHT22** and keep it for 1ms to awake it and ask for data. Then wait for **20-40us** to get response from **DHT22**. When **DHT22** detect the start signal, **DHT22** will send out low-voltage-level signal and this signal last 80us as response signal, then program of **DHT22** transform data-bus's voltage level from low to high level and last **80us** for **DHT22's** preparation to send data. When **DHT22** is sending data to **MCU**, every bit's transmission begin with low-voltage-level that last 50us, the following high-voltage-level signal's length decide the bit is **"1"** or **"0"**.
+At first **MCU** sends a low voltage signal to the **DHT22** and keep it for 1ms to awake it and ask for data. Then wait for **20-40us** to get response from **DHT22**. When **DHT22** detect the start signal, **DHT22** will send out low-voltage-level signal and this signal last 80us as response signal, then program of **DHT22** transform data-bus's voltage level from low to high level and last **80us** for **DHT22's** preparation to send data. When **DHT22** is sending data to **MCU**, every bit's transmission begin with low-voltage-level that last 50us, the following high-voltage-level signal's length decide the bit is **"1"** or **"0"**.   
 
+### Picture of DHT22 that I will going to use
 
+https://github.com/Tannidey97/esp32-environmental-monitoring-system-/blob/main/IMG_20260929_202121_381.jpg
 
+***For power supply, communications, Ground there are 4 pins connected to the sensor :***  
+
+**VDD** - Power supply pin   
+**GND** - Ground/negative supply  
+**NC** - not connected  
+**DATA** - Single bus data line(communication)  
 
 
 
